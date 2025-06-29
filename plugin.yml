@@ -1,0 +1,20 @@
+name: zHealFeed
+main: zAukz\zHealFeed\Main
+api: 5.0.0
+version: 1.0.0
+author: zAukz
+description: Adds heal and feed commands to your server!
+commands:
+  heal:
+    description: Heal yourself to full health.
+    usage: "/heal"
+    permission: zhealfeed.command.heal
+  feed:
+    description: Feed yourself to full hunger.
+    usage: "/feed"
+    permission: zhealfeed.command.feed
+permissions:
+  zhealfeed.command.heal:
+    default: true
+  zhealfeed.command.feed:
+    default: true
